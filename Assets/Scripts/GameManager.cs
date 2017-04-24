@@ -150,7 +150,7 @@ public class GameManager : MonoBehaviour {
             Pause(!paused);
 
         //TODO: This should not be here this is only for testing
-        if(Input.GetKeyDown(KeyCode.K))
+        /*if(Input.GetKeyDown(KeyCode.K))
         {
             Enemy[] allEnemies = FindObjectsOfType<Enemy>();
             foreach(Enemy enemy in allEnemies)
@@ -161,7 +161,7 @@ public class GameManager : MonoBehaviour {
 
                 Destroy(enemy.gameObject);
             }
-        }
+        }*/
     }
 
     private void SpawnPlayer()
